@@ -102,4 +102,4 @@ class KNN:
 			if act == pred:
 				count += 1
 
-		return count / len(y_true)
+		return count / len(y_test)
